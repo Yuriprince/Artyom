@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.characters {
+  color: #8f8f8f;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 0.8;
+}
+
+i:hover {
+  color:rgb(255, 102, 0);
+}
