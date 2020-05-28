@@ -63,9 +63,12 @@ p,a {
 }
 
 i {
-  color: black;
   float: right;
   margin-right: 10px;
+}
+
+.black {
+  color: black;
 }
 
 @media all and (max-width: 990px) {

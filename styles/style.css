@@ -47,6 +47,7 @@ body {
   text-decoration: none;
 }
 
+
 .higher-header-elem a:hover, i:hover {
   color: rgb(255, 102, 0);
 }
@@ -101,6 +102,10 @@ body {
 .menu a {
   text-decoration: none;
   color: black;
+}
+
+.menu a.orange {
+  color: rgb(255, 102, 0);
 }
 
 .menu a:hover {
@@ -192,6 +197,18 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
+
+@media (max-width: 1200px) {
+
+  .menu {
+      flex-direction: column;
+  }
+
+  header div.center {
+    flex-direction: column;
+  }
+}
+
 
 
 
