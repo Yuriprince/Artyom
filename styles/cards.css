@@ -39,13 +39,22 @@
   border: 2px solid white;
 }
 
-.product-card button {
-  display: none;
+.invis button {
+  visibility: hidden;
+}
+
+.invis:hover button {
+  visibility: visible;
+}
+
+
+/*.product-card button {
+  visibility: hidden;
 }
 
 .product-card:hover button {
-  display: block;
-}
+  visibility: visible;
+}*/
 
 .product-card:hover {
   border: 2px solid black;
@@ -88,10 +97,4 @@
   padding-right: 5px;
   font-family: 'paragraph';
   color: black;
-}
-
-.info-btn {
-  width: 100%;
-  height: 25px;
-  margin-top: 5px;
 }

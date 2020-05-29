@@ -2,11 +2,6 @@ i.white {
   color: white;
 }
 
-.p-flex {
-  display: flex;
-  flex-direction: row;
-}
-
 i.white:hover {
   color:rgb(255, 102, 0);
 }
@@ -35,19 +30,6 @@ i.white:hover {
   font-size: 22px;
   padding: 5px;
   font-family: 'oswald';
-}
-
-.choose_category {
-  height: 30px;
-  font-family: 'standart-bold';
-  font-size: 16px;
-  margin-left: 25px;
-  margin-bottom: 1em;
-  padding: .25em;
-  border: 0;
-  border: 2px solid black;
-  font-weight: bold;
-  border-radius: 0;
 }
 
 .counter {

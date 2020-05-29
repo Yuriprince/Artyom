@@ -1,0 +1,74 @@
+#logincontainer {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: white;
+  color: black;
+  position: fixed;
+  /* фиксированное положение */
+  top: 0; /*эти 4 свойства дают 100%-ное заполнение*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+#login{
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 400px;
+  border: 2px solid black;
+  font-family: 'oswald';
+}
+
+#login a {
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#login a:hover {
+  color:rgb(255, 102, 0);
+}
+
+#login > h2, #login > button{
+  margin: 0 auto;
+}
+
+#login img {
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+#login h2 {
+  font-family: 'oswald';
+}
+
+#login input {
+  margin: 0;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+#login button {
+  font-family: 'oswald';
+}
+
+.error {
+  border: 2px solid red;
+  box-shadow: 0 0 10px red;
+}
+
+.errortext {
+  color: red;
+}
+

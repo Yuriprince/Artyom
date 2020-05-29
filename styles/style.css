@@ -189,6 +189,31 @@ body {
   margin-top: 20px;
 }
 
+.choose_category {
+  height: 30px;
+  font-family: 'standart-bold';
+  font-size: 16px;
+  margin-left: 25px;
+  margin-bottom: 1em;
+  padding: .25em;
+  border: 0;
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+
+.info-btn {
+  width: 100%;
+  height: 25px;
+  margin-top: 5px;
+}
+
+.p-flex {
+  display: flex;
+  flex-direction: row;
+}
+
 .btn:hover {
   color:rgb(255, 102, 0);
 }
