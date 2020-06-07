@@ -16,7 +16,7 @@
 
         <div class="p-flex">
           <p class="article">Либо перейдите к авторизации</p>
-          <a href="authorization.html">здесь</a>
+          <a href="authorization.php">здесь</a>
         </div>
       </form>
     </div>

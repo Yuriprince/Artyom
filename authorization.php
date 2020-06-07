@@ -13,7 +13,7 @@
 
         <div class="p-flex">
           <p class="article">Или зарегистрируйтесь</p>
-          <a href="registration.html">здесь</a>
+          <a href="registration.php">здесь</a>
         </div>
       </form>
     </div>
