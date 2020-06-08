@@ -8,40 +8,7 @@
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <div class="higher-header-elem">
-        <!--<p>Давай с нами</p>
-        <img class="cart" src="assets/icons/jordan.png" alt="jordan"/>-->
-        <span class="grow"></span>
-
-        <a href="#">Регистрация / Вход в профиль</a>
-        
-        <img class="cart" src="assets/icons/cart.png" alt="location"/>
-
-        <div class="location">
-          <img class="loc" src="assets/icons/location.png" alt="location"/>
-          <p>Россия</p>
-        </div>
-      </div>
-      <div class="menu border">
-        <img class="logo" src="assets/icons/fort.png" alt="location"/>
-        <div class="center">
-          <a href="#">Для военных и госслужащих</a>
-          <a href="#">Для рабочих</a>
-          <a href="#">Охота и рыбалка</a>
-          <a href="#" class="orange">Туризм</a>
-          <a href="#">Дети</a>
-          <a href="#">Акции</a>
-          <a href="#">Распродажа</a>
-        </div>
-
-        <div class="custom-input">
-          <img class="search" src="assets/icons/search.png"/>
-          <input placeholder="Поиск"/>
-        </div>
-
-      </div>
-    </header>
+    <?php include("./templates/header.php"); ?>
 
     <main>
       <p class="center category" id="nav"><a href="">Главная </a>
@@ -51,11 +18,9 @@
               <p class="center article">Куртка демисезонная Kalo F2</p>
 
               <div class="p-flex">
-                  <img src="assets/img/jacke.jpeg" alt="tovar">
+                  <img class="img" src="assets/img/jacke.jpeg" alt="tovar">
                 <div class="gray">
                   <p class="center article">Характеристики</p>
-                  <p>Цвет: Серый</p>
-
                   <div class="p-flex">
                     <p>Размеры: </p>
                     <select class="choose_category">
@@ -65,8 +30,7 @@
                       <option>XXL</option>
                     </select>
                   </div>
-                  <p>Бренд: Kalo</p>
-                  <p>Тип: демисезонная</p>
+                  <p class="mytype">Тип: демисезонная</p>
                 </div>
                 <div class="gray">
                   <p class="p-price">1 990 p.</p>
@@ -114,3 +78,6 @@
   </footer>
   </body>
 </html>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/getProd.js"></script>

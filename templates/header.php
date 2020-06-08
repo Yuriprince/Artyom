@@ -7,6 +7,7 @@
         <a href="authorization.php">Регистрация / Вход в профиль</a>
         
         <img class="cart" src="assets/icons/cart.png" alt="location"/>
+        <span class="cart-kolvo">0</span>
 
         <div class="location">
           <img class="loc" src="assets/icons/location.png" alt="location"/>
@@ -14,12 +15,12 @@
         </div>
       </div>
       <div class="menu border">
-        <img class="logo" src="assets/icons/fort.png" alt="location"/>
+        <img class="logo main-logo" src="assets/icons/fort.png" alt="location"/>
         <div class="center">
           <a href="#">Для военных и госслужащих</a>
           <a href="#">Для рабочих</a>
           <a href="#">Охота и рыбалка</a>
-          <a href="#" class="orange">Туризм</a>
+          <a href="#" class="orange1">Туризм</a>
           <a href="#">Дети</a>
           <a href="#">Акции</a>
           <a href="#">Распродажа</a>
@@ -32,3 +33,6 @@
 
       </div>
     </header>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/header.js"></script>

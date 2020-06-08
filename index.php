@@ -22,19 +22,15 @@
           <div id="card-container">
             <div class="cards">
 
-                <?php 
+                <?php
+                  $db = new PDO('mysql:host=localhost:3306;dbname=artyom_magaz;charset=utf8','root','');
+                  $sql="SELECT * FROM product";
+                  $result = $db->query($sql);
+                  $products = $result->fetchAll(PDO::FETCH_ASSOC);
 
-                  for($i = 0; $i < 5; $i++) {?>
-                    <div class="product-card category">
-                        <img src="assets/img/jacke.jpeg" alt="tovar">
-                        <p class="tovar-desc">Куртка демисезонная Kalo F2</p>
-                        <p class="characters">50% полиэстер, 20% нейлон, водонепроницаемая...</p>
-                        <p class="price">1 990 p. <a href="">
-                            <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-                        </a></p>
-                        <button class="btn info-btn">Подробнее</button>
-                    </div>
-           <?php  }
+                  foreach ($products as $product) {
+                    include("./templates/prod_item.php");
+                  }
                 ?>
             </div>
           </div>
@@ -47,4 +43,4 @@
 </html>
 
 <script src="scripts/jquery.js"></script>
-<script src="scripts/search.js"></script>
+<script src="scripts/search_prepare.js"></script>

@@ -3,8 +3,6 @@ $(document).ready(() => {
 
    const cardResults = (id, name, price, characters, subcategory, image) => {
     const card = document.createElement('div');
-    card.className = 'card-wrapper col-12 col-md-6 col-lg-4 col-xl-3 pb-3';
-
     card.innerHTML = 
       `<div class="product-card category invis">
         <img src="assets/img/${image}" alt="tovar">
@@ -28,7 +26,8 @@ $(document).ready(() => {
         success: function(response)
         {
           const arr = JSON.parse(response);
-          const arrayOfCards = document.querySelector('.cards');
+          const arrayOfCards = $('.cards')[0];
+          arrayOfCards.innerHTML = '';
 
           console.log(arr);
           if(arr.length) {
@@ -39,8 +38,35 @@ $(document).ready(() => {
           } else {
             arrayOfCards.textContent = "Ничего не найдено";
           }
-
-          return card;
         }
     });
+
+    $(document).on('click','.menu-item', (e) =>{
+
+      const subcategory =  e.target.textContent;
+
+      $.ajax({
+        url: 'connection/item_by_category.php',
+        method: 'post',
+        data: { subcategory },
+        success: function(response)
+        {
+          $('.menu-item').attr('id', 'selected11');
+
+          e.target.setAttribute('id', 'selected1');
+          const arr = JSON.parse(response);
+          const arrayOfCards = $('.cards')[0];
+          arrayOfCards.innerHTML = '';
+          console.log(arr);
+          if(arr.length > 0) {
+            arr.forEach(({ id, name, price, producer, description, characters, 
+                           category, subcategory, admin, user, sale, image}) => {
+                arrayOfCards.append(cardResults(id, name, price, characters, subcategory, image));
+            });
+          } else {
+            arrayOfCards.textContent = "Ничего не найдено";
+          }
+        }
+      });
+    }); 
 });

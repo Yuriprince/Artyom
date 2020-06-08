@@ -205,8 +205,29 @@ body {
 
 .info-btn {
   width: 100%;
-  height: 25px;
   margin-top: 5px;
+  min-height: 40px;
+}
+
+.menu-item {
+color: gray;
+}
+
+.cart-kolvo {
+  background-color: rgb(255, 102, 0);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+  color: black;
 }
 
 .p-flex {
@@ -221,6 +242,10 @@ body {
 .new {
   font-size: 20px;
   font-weight: 600;
+}
+
+.main-logo {
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
