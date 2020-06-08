@@ -14,6 +14,8 @@
         <input class="choose_category" type="password" placeholder="Подтвердите пароль"/>
         <button type="button" class="btn info-btn center">Зарегистрироваться</button>
 
+        <p class="my-success">Регистрация произведена успешно!</p>
+
         <div class="p-flex">
           <p class="article">Либо перейдите к авторизации</p>
           <a href="authorization.php">здесь</a>

@@ -44,3 +44,4 @@
 
 <script src="scripts/jquery.js"></script>
 <script src="scripts/search_prepare.js"></script>
+<script src="scripts/header.js"></script>

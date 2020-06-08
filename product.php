@@ -12,7 +12,7 @@
 
     <main>
       <p class="center category" id="nav"><a href="">Главная </a>
-        /  <a href=""> Туризм </a> / <a href="">Куртки</a> / <a href="">Куртка демисезонная Kalo F2</a></p>
+        /  <a href=""> Туризм </a> / <a href="">Куртки</a> / <a href="">Жилет Nova</a></p>
         <div class="container">
           <div class="product category">
               <p class="center article">Куртка демисезонная Kalo F2</p>
@@ -51,33 +51,10 @@
           </div>
         </div>
     </main>
-    <footer>
-
-      <div id="footer-column" class="container">
-          <div class="trademark category">
-              <p>&#169; 2020 ЗАО "Форт Поход"</p>
-              <a href="">fp-sale@bk.ru</a>
-          </div>
-
-          <div class="links">
-              <ul class="category ul-foot">
-                  <li><a href="">Для военных и госслужащих</a></li>
-                  <li><a href="">Для рабочих</a></li>
-                  <li><a href="">Охота и рыбалка</a></li>
-                  <li><a href="">Туризм</a></li>
-                  <li><a href="">Дети</a></li>
-                  <li><a href="">Акции</a></li>
-                  <li><a href="">Распродажа</a></li>
-              </ul>
-          </div>
-          <div class="development category">
-              <a href="">Интернет-магазин спецодежды</a>
-              <p>Всё лучшее у нас!</p>
-          </div>
-      </div>
-  </footer>
+    <?php include("./templates/footer.php"); ?>
   </body>
 </html>
 
 <script src="scripts/jquery.js"></script>
 <script src="scripts/getProd.js"></script>
+<script src="scripts/search_prepare.js"></script>

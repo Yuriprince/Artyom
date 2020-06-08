@@ -55,6 +55,7 @@ body {
 .cart {
   width: 25px;
   height: 20px;
+  cursor: pointer;
 }
 
 .search {
@@ -246,6 +247,16 @@ color: gray;
 
 .main-logo {
   cursor: pointer;
+}
+
+.my-error {
+  color: red;
+  margin: 0 auto ;
+}
+
+.my-success {
+  color: green;
+  margin: 0 auto ;
 }
 
 @media (max-width: 1200px) {

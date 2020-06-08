@@ -11,6 +11,8 @@
         <input class="choose_category" type="password" placeholder="Пароль"/>
         <button type="button" class="btn info-btn center">ВОЙТИ</button>
 
+        <p class="my-error">Неверный логин или пароль!</p>
+
         <div class="p-flex">
           <p class="article">Или зарегистрируйтесь</p>
           <a href="registration.php">здесь</a>

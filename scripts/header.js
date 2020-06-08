@@ -5,5 +5,9 @@ $(document).ready(() => {
 
   $(document).on('click','.main-logo', (e) =>{
     window.location.href = 'index.php';
-   });
+  });
+
+  $(document).on('click','.cart', (e) =>{
+    window.location.href = 'cart.php';
+  });
 });

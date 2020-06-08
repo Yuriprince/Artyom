@@ -49,15 +49,12 @@
         </div>
 
         <div class="numbers">
-          <a class="category" href="">1</a></li>
-          <a class="category" href="">2</a></li>
-          <a href="">3</a></li>
-          <a class="category" href="">4</a></li>
-          <a class="category" href="">5</a></li>
-          <a class="category" href="">6</a></li>
-          <a class="category" href="">7</a></li>
+          <a href="">1</a></li>
       </div>
     </main>
     <?php include("./templates/footer.php"); ?>
   </body>
 </html>
+
+<script src="scripts/jquery.js"></script>
+<script src="scripts/admin.js"></script>

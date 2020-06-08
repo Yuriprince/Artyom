@@ -4,9 +4,9 @@
         <img class="cart" src="assets/icons/jordan.png" alt="jordan"/>-->
         <span class="grow"></span>
 
-        <a href="authorization.php">Регистрация / Вход в профиль</a>
+        <a href="authorization.php"><!--Регистрация / Вход в профиль--> admin</a>
         
-        <img class="cart" src="assets/icons/cart.png" alt="location"/>
+        <img class="cart" src="assets/icons/cart.png" alt="cart"/>
         <span class="cart-kolvo">0</span>
 
         <div class="location">
